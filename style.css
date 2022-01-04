@@ -257,6 +257,16 @@ header {
         grid-template-columns: min-content max-content;
     }
 
+    .contact-intro{
+        width: 60%;
+        margin: 0 auto;
+        column-gap: 1em;
+        grid-template-areas: 
+            "title"
+            "subtitle";
+        grid-template-columns: min-content max-content;
+    }
+
     .intro__img {
         grid-area: img;
         min-width: 200px;
@@ -515,3 +525,37 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.contact-container{
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted black;
+    border-radius: 3%;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 1rem auto;
+}
+
+.contact-details:last-child{
+    margin-bottom: 4.5rem;
+}
+
+.contact-details p{
+    min-width: 250px;
+}
+
+.contact-details i{
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--clr-accent);
+}
+
+
+
