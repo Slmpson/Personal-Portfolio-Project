@@ -15,20 +15,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/339bff3e9e.js" crossorigin="anonymous"></script>
+<script src="/script.js" defer></script>
  
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="/Resources/personTemplate.png" height="50px" width="auto" alt="">
-        </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My skills</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                 <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
             </ul>
@@ -41,30 +39,54 @@
             Hi, I am <strong>Craig Simpson</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">"Fill content here"</p>
-        <img src="/Resources/personTemplate.png" class="intro__img" height="200px" width="auto" alt="">
+        <img src="/Resources/portfolio-profile-pic.jpg" class="intro__img" height="200px" width="auto" alt="">
     </section>
 
 
-    <!--My services-->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">"Title"</h2>
-        <div class="services">
-            <div class="service">
-                <h3>"Title"</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit placeat, aspernatur libero adipisci nulla iusto culpa praesentium magni autem dolore inventore consequatur. Voluptatem quidem impedit quas ipsum! Assumenda, alias?</p>
+    <!--My skills-->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p class="html-icon"><i class="fab fa-html5"></i></p>
             </div> 
 
-            <div class="service">
-                <h3>"Title"</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea rerum perspiciatis consequuntur incidunt saepe ipsam, ex praesentium omnis similique laboriosam sit debitis iure sequi cumque? Quas magnam quia dolore quisquam?</p>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p class="css-icon"><i class="fab fa-css3-alt"></i></p>
             </div> 
 
-            <div class="service">
-                <h3>"Title"</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum odit dignissimos hic possimus! Corporis quas vel nemo laudantium cupiditate vitae expedita, eaque, illum quisquam quos voluptatum, blanditiis facilis porro!</p>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p class="javascript-icon"><i class="fab fa-js-square"></i></p>
             </div> 
 
-        </div> <!-- / services -->
+
+        </div> 
+        
+        <div class="skills">
+            <div class="skill">
+                <h3>React</h3>
+                <p class="react-icon"><i class="fab fa-react"></i></p>
+            </div> 
+
+            <div class="skill">
+                <h3>Node JS</h3>
+                <p class="nodejs-icon"><i class="fab fa-node"></i></p>
+            </div> 
+
+            <div class="skill">
+                <h3>GitHub</h3>
+                <p class="github-icon"><i class="fab fa-github"></i></p>
+            </div> 
+
+            
+        </div><!-- / skills -->
+
+
+
+        
 
         <a href="#work" class="btn">My work</a>
     </section>
@@ -90,27 +112,27 @@
         <div class="portfolio">
 
             <!--Portfolio item 1-->
-            <a href="#" class="portfolio__item">
-                <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
+            <a href="mywork-1.html" class="portfolio__item">
+                <img src="/Resources/realsocialdads.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
             <!--Portfolio item 2-->
-            <a href="#" class="portfolio__item">
-                <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
+            <a href="mywork-2.html" class="portfolio__item">
+                <img src="/Resources/pokedex.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
             <!--Portfolio item 3-->
-            <a href="#" class="portfolio__item">
-                <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
+            <a href="mywork-3.html" class="portfolio__item">
+                <img src="/Resources/space-invaders-1.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
             <!--Portfolio item 4-->
-            <a href="#" class="portfolio__item">
-                <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
+            <a href="mywork-4.html" class="portfolio__item">
+                <img src="/Resources/furniture-ecommerce.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
             <!--Portfolio item 5-->
-            <a href="#" class="portfolio__item">
-                <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
+            <a href="mywork-5.html" class="portfolio__item">
+                <img src="/Resources/landing-page-1.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
             <!--Portfolio item 6-->
-            <a href="#" class="portfolio__item">
+            <a href="mywork-6.html" class="portfolio__item">
                 <img src="/Resources/personTemplate.png" class="portfolio__img" height="200px" width="auto" alt="">
             </a>
         </div>
@@ -120,14 +142,13 @@
     <footer class="footer">
         <a href="mailto:simpson_cmes@hotmail.co.uk" class="footer__link">simpson_cmes@hotmail.co.uk</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-github"></i></i></a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link"><i class="far fa-address-card"></i></a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fas fa-file-alt"></i></a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link"><i class="fas fa-bullhorn"></i></a></li>
+            <li class="social-list__item" title="GitHub"><a href="https://github.com/Slmpson" class="social-list__link" target="_blank"><i class="fab fa-github"></i></i></a></li>
+            <li class="social-list__item" title="Contact"><a href="#" class="social-list__link"><i class="far fa-address-card"></i></a></li>
+            <li class="social-list__item" title="CV"><a href="#" class="social-list__link"><i class="fas fa-file-alt"></i></a></li>
         </ul>
     </footer>
 
-    <script src="/script.js"></script>
+    
 
 </body>
 </html>
