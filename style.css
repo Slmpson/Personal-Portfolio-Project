@@ -325,6 +325,14 @@ header {
     margin-bottom: 4em;
 }
 
+.skills-used-container p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5em;
+}
+
 .skill{
     max-width: 500px;
     margin-left: auto;
@@ -338,10 +346,20 @@ header {
     margin: 0;
 }
 
+.html-icon-portfolio-item{
+    color: rgb(202, 50, 30);
+    font-size: 2em;
+}
+
 .css-icon {
     color: rgb(29, 83, 201);
     font-size: 5em;
     margin: 0;
+}
+
+.css-icon-portfolio-item{
+    color: rgb(29, 83, 201);
+    font-size: 2em;
 }
 
 .javascript-icon {
@@ -350,11 +368,23 @@ header {
     margin: 0;
 }
 
+.js-icon-portfolio-item{
+    color: rgb(211, 192, 47);
+    font-size: 2em;
+}
+
 .react-icon {
     color: rgb(46, 225, 238);
     font-size: 5em;
     margin: 0;
 }
+
+.react-icon-portfolio-item{
+    color: rgb(46, 225, 238);
+    font-size: 2em;
+}
+
+
 
 .nodejs-icon {
     color: rgb(28, 151, 28);
@@ -366,6 +396,11 @@ header {
     color: #fff;
     font-size: 5em;
     margin: 0;
+}
+
+.api-icon-portfolio-item{
+    color: #222;
+    font-size: 2em;
 }
 
 @media (min-width: 800px) {
@@ -440,6 +475,7 @@ header {
 
 .portfolio {
     display: grid;
+    gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* minimum size of grid is 300px but will get larger if possible */
     /* can add max width here to stop a long line of pics, also need to set margin 0 auto with this */
 }
@@ -447,7 +483,7 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
-    border: 2px solid  black ;
+    border: 2px solid  var(--clr-accent) ;
     
 }
 
@@ -513,6 +549,7 @@ header {
     padding: 0.5em; /* The padding makes it easier if some is trying to press with a finger */
 }
 
+/* Footer end */
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
@@ -526,11 +563,25 @@ header {
     margin-right: auto;
 }
 
+.portfolio-item-individual-skills{
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #eee;
+    padding-top: 0.5em;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+
 .contact-container{
     max-width: 1000px;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
+    margin-top: -5rem;
 }
 
 .contact-details{
@@ -544,7 +595,7 @@ header {
 }
 
 .contact-details:last-child{
-    margin-bottom: 4.5rem;
+    margin-bottom: 25%;
 }
 
 .contact-details p{
@@ -557,5 +608,33 @@ header {
     color: var(--clr-accent);
 }
 
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3em auto 0 auto;
+}
 
+.live-version-btn, .github-code-btn{
+    text-align: center;
+    padding: 0.25em 1.5em;
+    text-decoration: none;
+    border: 1px solid var(--clr-dark);
+    box-shadow: var(--bs);
+}
+
+.btn-icon{
+    margin-right: 1em;
+}
+
+.live-version-btn{
+    background-color: var(--clr-accent);
+    font-weight: bold;
+    color: var(--clr-dark);
+}
+
+.github-code-btn{
+    background-color: var(--clr-dark);
+    color: white;
+}
 
