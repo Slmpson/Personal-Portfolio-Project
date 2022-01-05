@@ -14,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #18b4e4;
+    --clr-accent: #159bc4;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -175,7 +175,7 @@ header {
 }
 
 .nav-toggle {
-    padding: 0.5em;
+    padding: 1em;
     background: transparent;
     border: 0;
     cursor: pointer;
@@ -623,6 +623,11 @@ header {
     box-shadow: var(--bs);
 }
 
+.live-version-btn:hover, .github-code-btn:hover{
+    opacity: 0.8;
+    transition: 200ms linear;
+}
+
 .btn-icon{
     margin-right: 1em;
 }
@@ -636,5 +641,17 @@ header {
 .github-code-btn{
     background-color: var(--clr-dark);
     color: white;
+}
+
+.fa-long-arrow-alt-left{
+    margin-right: 0.5em;
+}
+
+.go-back-btn{
+    text-decoration: none;
+    color: var(--clr-accent);
+    background-color: #eee;
+    padding: 0 1em;
+    border-radius: 3%;
 }
 
