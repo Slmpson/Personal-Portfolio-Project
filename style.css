@@ -79,6 +79,7 @@ strong {
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -546,7 +547,7 @@ header {
 }
 
 .social-list__link {
-    padding: 0.5em; /* The padding makes it easier if some is trying to press with a finger */
+    padding: 0.5em; 
 }
 
 /* Footer end */
@@ -617,10 +618,11 @@ header {
 
 .live-version-btn, .github-code-btn{
     text-align: center;
-    padding: 0.25em 1.5em;
+    padding: 0.25em 1em;
     text-decoration: none;
     border: 1px solid var(--clr-dark);
     box-shadow: var(--bs);
+    border-radius: 5px;
 }
 
 .live-version-btn:hover, .github-code-btn:hover{
@@ -636,6 +638,7 @@ header {
     background-color: var(--clr-accent);
     font-weight: bold;
     color: var(--clr-dark);
+    margin-right: 1em;
 }
 
 .github-code-btn{
@@ -653,5 +656,10 @@ header {
     background-color: #eee;
     padding: 0 1em;
     border-radius: 3%;
+}
+
+.cv-container{
+    height: 100vh;
+    width: 100vw;
 }
 
