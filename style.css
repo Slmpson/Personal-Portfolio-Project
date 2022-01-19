@@ -246,6 +246,10 @@ header {
     box-shadow: var(--bs);
 }
 
+.work__img{
+    margin: 0 auto;
+}
+
 @media (min-width: 600px) {
     .intro{
         display: grid;
@@ -283,6 +287,7 @@ header {
         position: relative;
         z-index: 2;
         object-fit: cover;
+        margin: 0 auto;
         }
 
     .section__subtitle--intro {
@@ -657,6 +662,8 @@ header {
     padding: 0 1em;
     border-radius: 3%;
 }
+
+
 
 
 
