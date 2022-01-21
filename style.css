@@ -278,7 +278,7 @@ header {
         position: relative;
         z-index: 2;
         border-radius: 50%;
-        object-fit: cover;
+        object-fit:cover;
         }
 
     .work__img {
@@ -434,6 +434,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    display: none;
 }
 
 @media (min-width: 600px) {
@@ -450,6 +451,7 @@ header {
     
     .section__title--about{
         grid-area: title;
+        padding-bottom: 0.1em;
     }
 
     .section__subtitle--about {
@@ -467,6 +469,7 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+        display: block;
     }
 }
 
