@@ -409,6 +409,11 @@ header {
     font-size: 2em;
 }
 
+.sass-icon-portfolio-item{
+    color: rgb(235, 100, 235);
+    font-size: 2em;
+}
+
 @media (min-width: 800px) {
     .skills {
         display: flex;
