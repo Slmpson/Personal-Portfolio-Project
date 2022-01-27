@@ -244,6 +244,7 @@ header {
 
 .intro__img{
     box-shadow: var(--bs);
+    display: none;
 }
 
 .work__img{
@@ -279,6 +280,7 @@ header {
         z-index: 2;
         border-radius: 50%;
         object-fit:cover;
+        display: block;
         }
 
     .work__img {
