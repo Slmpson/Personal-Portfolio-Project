@@ -348,72 +348,59 @@ header {
     margin-bottom: 3em;
 }
 
-.html-icon {
-    color: rgb(202, 50, 30);
+.icon{
     font-size: 5em;
     margin: 0;
 }
 
-.html-icon-portfolio-item{
-    color: rgb(202, 50, 30);
+.icon-portfolio-item{
     font-size: 2em;
+}
+
+.html-icon {
+    color: rgb(202, 50, 30);
 }
 
 .css-icon {
     color: rgb(29, 83, 201);
-    font-size: 5em;
-    margin: 0;
 }
 
-.css-icon-portfolio-item{
-    color: rgb(29, 83, 201);
-    font-size: 2em;
-}
-
-.javascript-icon {
+.js-icon {
     color: rgb(211, 192, 47);
-    font-size: 5em;
-    margin: 0;
-}
-
-.js-icon-portfolio-item{
-    color: rgb(211, 192, 47);
-    font-size: 2em;
 }
 
 .react-icon {
     color: rgb(46, 225, 238);
-    font-size: 5em;
-    margin: 0;
 }
 
-.react-icon-portfolio-item{
-    color: rgb(46, 225, 238);
-    font-size: 2em;
+.php-icon{
+    color: rgb(120,124,180);
 }
-
-
 
 .nodejs-icon {
     color: rgb(28, 151, 28);
-    font-size: 5em;
-    margin: 0;
 }
 
 .github-icon {
     color: #fff;
-    font-size: 5em;
-    margin: 0;
+}
+
+.bootstrap-icon{
+    color: rgb(116,17,246);
+}
+
+.figma-icon{
+    background: -webkit-linear-gradient(270deg, rgba(241,79,30,1) 0%, rgba(241,79,30,1) 39%, rgba(10,207,128,1) 39%, rgba(10,207,128,1) 60%, rgba(161,90,254,1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .api-icon-portfolio-item{
     color: #222;
-    font-size: 2em;
 }
 
-.sass-icon-portfolio-item{
+.sass-icon{
     color: rgb(235, 100, 235);
-    font-size: 2em;
 }
 
 @media (min-width: 800px) {
